@@ -2,6 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
+# This code is for testing
+
 def color_cycle_example(ax):
     L = 6
     x = np.linspace(0, L)
@@ -24,5 +26,6 @@ fig, (ax1, ax2) = plt.subplots(ncols=2)
 
 color_cycle_example(ax1)
 image_and_patch_example(ax2)
+plt.title("My Graph")
 
 plt.show()
